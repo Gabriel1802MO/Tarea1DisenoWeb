@@ -1,0 +1,97 @@
+/* Estilo para el contenedor principal */
+.info-container {
+    display: flex;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap; /* Permitir que las secciones se envuelvan en una nueva línea si no caben */
+}
+
+/* Estilo para la parte izquierda (imagen) */
+.info-left {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para la imagen dentro de info-left */
+.info-left img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo para la parte derecha (texto) */
+.info-right {
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el texto dentro de info-details */
+.info-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo para Education-info */
+.Education-info {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px; /* Agrega espacio entre las secciones */
+}
+
+/* Estilo para Laboral-info */
+.Laboral-info {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px; /* Agrega espacio entre las secciones */
+}
+
+/* Estilo para Cursos-Info */
+.Cursos-Info {
+    width: 100%; /* Abarca todo el ancho de la página */
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    clear: both; /* Evita que elementos floten alrededor */
+}
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Combina los bordes de las celdas para un aspecto de tabla sólida */
+    border: 1px solid #ddd; /* Borde de la tabla */
+}
+
+/* Estilo para los encabezados de columna */
+th {
+    background-color: #f2f2f2; /* Color de fondo de los encabezados */
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para las celdas de datos */
+td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para la fila de encabezado */
+thead th {
+    background-color: #ddd; /* Color de fondo del encabezado de la tabla */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para la fila de pie */
+tfoot td {
+    background-color: #ddd; /* Color de fondo del pie de la tabla */
+    text-align: center; /* Alineación del texto al centro */
+}
+
