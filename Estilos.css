@@ -5,7 +5,7 @@
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    flex-wrap: wrap; /* Permitir que las secciones se envuelvan en una nueva línea si no caben */
+    flex-wrap: wrap;
 }
 
 /* Estilo para la parte izquierda (imagen) */
@@ -41,7 +41,7 @@
     border: 1px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
-    margin-right: 20px; /* Agrega espacio entre las secciones */
+    margin-right: 20px;
 }
 
 /* Estilo para Laboral-info */
@@ -50,48 +50,48 @@
     border: 1px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
-    margin-right: 20px; /* Agrega espacio entre las secciones */
+    margin-right: 20px;
 }
 
 /* Estilo para Cursos-Info */
 .Cursos-Info {
-    width: 100%; /* Abarca todo el ancho de la página */
+    width: 100%;
     border: 1px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
-    clear: both; /* Evita que elementos floten alrededor */
+    clear: both; 
 }
 /* Estilo para la tabla */
 table {
     width: 100%;
-    border-collapse: collapse; /* Combina los bordes de las celdas para un aspecto de tabla sólida */
-    border: 1px solid #ddd; /* Borde de la tabla */
+    border-collapse: collapse; 
+    border: 1px solid #ddd; 
 }
 
 /* Estilo para los encabezados de columna */
 th {
-    background-color: #f2f2f2; /* Color de fondo de los encabezados */
-    border: 1px solid #ddd; /* Borde de las celdas */
-    padding: 8px; /* Espaciado interno */
-    text-align: left; /* Alineación del texto a la izquierda */
+    background-color: #f2f2f2; 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
 }
 
 /* Estilo para las celdas de datos */
 td {
-    border: 1px solid #ddd; /* Borde de las celdas */
-    padding: 8px; /* Espaciado interno */
-    text-align: left; /* Alineación del texto a la izquierda */
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
 }
 
 /* Estilo para la fila de encabezado */
 thead th {
-    background-color: #ddd; /* Color de fondo del encabezado de la tabla */
-    text-align: center; /* Alineación del texto al centro */
+    background-color: #ddd; 
+    text-align: center; 
 }
 
 /* Estilo para la fila de pie */
 tfoot td {
-    background-color: #ddd; /* Color de fondo del pie de la tabla */
-    text-align: center; /* Alineación del texto al centro */
+    background-color: #ddd; 
+    text-align: center; 
 }
 
